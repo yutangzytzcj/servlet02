@@ -57,7 +57,7 @@ public class TestCase {
 	public void test6(){
 		EmployeeDAO dao = 
 				new EmployeeDAO();
-		Employee e = dao.findById(3);
+		Employee e = dao.findById(6);
 		e.setSalary(e.getSalary() * 2);
 		dao.modify(e);
 	}
